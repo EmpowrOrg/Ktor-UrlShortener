@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="ApplicationKt" type="JetRunConfigurationType" nameIsGenerated="true">
+    <envs>
+      <env name="DATABASE_DRIVER" value="org.postgresql.ds.PGSimpleDataSource" />
+      <env name="DB_URL" value="jdbc:postgresql://localhost:5432/usain" />
+      <env name="DB_USER" value="postgres" />
+      <env name="DB_PASSWORD" value="admin" />
+      <env name="DATABASE_NAME" value="usain" />
+      <env name="DATABASE_PORT" value="5432" />
+      <env name="DATABASE_SERVER" value="localhost" />
+      <env name="PORT" value="8080" />
+      <env name="BASE_URL" value="https://empwr.dev/a/" />
+    </envs>
+    <option name="MAIN_CLASS_NAME" value="dev.empwr.usain.ApplicationKt" />
+    <module name="usain.main" />
+    <shortenClasspath name="NONE" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
