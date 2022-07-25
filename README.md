@@ -4,6 +4,10 @@ Here is a simple url shortener written in Ktor. There is nothing too special abo
 
 This is meant to be hosted on AWS but you can host this anywhere a fatJar is used.
 
+## Front-End
+To access the frontend you got to the `baseUri/shorten`. 
+It's a very simple front-end built using kotlinx.html.
+
 ## Nice-To-Haves
 If you would like to contribute, please check out this list of things I would love to still do
 
